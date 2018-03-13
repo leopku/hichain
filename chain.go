@@ -1,5 +1,9 @@
 package main
 
+import (
+  "github.com/dgraph-io/badger"
+)
+
 type Chain struct {
   blocks []*Block
 }
